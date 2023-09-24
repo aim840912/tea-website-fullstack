@@ -1,0 +1,11 @@
+.title {
+  display: flex;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.title p {
+  font-weight: 800;
+}

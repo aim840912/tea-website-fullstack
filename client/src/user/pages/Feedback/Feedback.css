@@ -1,0 +1,51 @@
+.feedback-whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-form {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.feedback-label {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  font-weight: 1000;
+}
+
+.feedback-input,
+.feedback-textarea {
+  background-color: white;
+  color: black;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  width: 100%;
+}
+
+.feedback-textarea {
+  vertical-align: top;
+  height: 10rem;
+}
+
+.feedback-button {
+  align-self: center;
+  background-color: white;
+  color: rgb(253, 109, 133);
+  border: none;
+  cursor: pointer;
+  padding: 0.5em 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+.feedback-button:hover {
+  background-color: rgb(253, 109, 133);
+  color: white;
+}

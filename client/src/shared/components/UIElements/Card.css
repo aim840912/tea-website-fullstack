@@ -1,0 +1,62 @@
+.card-container {
+  margin: 30px 30px;
+  width: 305px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card_image {
+  width: 305px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container .card_image img {
+  width: 305px;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card_image img:hover {
+  width: 305px;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: filter 0.5s linear;
+  /* filter: blur(3px); */
+  filter: blur(10px);
+  border:3px solid green;
+}
+
+.card_title {
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-container:hover {
+  transform: scale(0.95, 0.95);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}

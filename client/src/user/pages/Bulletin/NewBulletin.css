@@ -1,0 +1,57 @@
+.new-news-container {
+  display: flex;
+}
+.new-news-image-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 500px;
+}
+.new-news-image {
+  width: 500px;
+}
+.new-news-form {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.new-news-label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+.new-news-input,
+.new-news-textarea {
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem 0.25rem;
+  width: 90%;
+  font-size: 1.25rem;
+}
+
+.new-news-button {
+  align-self: center;
+  background-color: rgb(253, 109, 133);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.75em 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.news-ckeckbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.new-news-check {
+  transform: scale(2.5);
+  margin-left: 2rem;
+  background-color: #50bcf2;
+}

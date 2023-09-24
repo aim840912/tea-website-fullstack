@@ -1,0 +1,30 @@
+.twitch-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.twitch-login-container button{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  size: 1rem;
+}
+
+.twitch-login-container button:hover{
+  background-color: rgb(100, 65, 164);
+  border: none;
+  size: 1rem;
+}
+
+.twitch-login-container a{
+  color:rgb(100, 65, 164);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.twitch-login-img{
+  margin-right: 1rem;
+  height: 70px;
+}
